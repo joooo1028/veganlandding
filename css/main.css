@@ -1,0 +1,239 @@
+@import url(reset.css);
+/* main css */
+
+@font-face {
+    font-family: 'GowunBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body{font-family: GowunBatang; font-size: 20px; color: #000;}
+
+/* container */
+#container{position: relative;}
+#container > div{width: 100%;}
+
+/* content1 */
+#content1 > section{position: relative; width: 1920px; height: 1080px; background: url(../images/section1/그룹797.png) no-repeat 0 0;background-size: cover;
+    overflow: hidden;}
+#content1 > section > h2{opacity: 0; position: absolute;left: 1326px; top: 284px; color: #104B0B; font-size: 90px; font-weight: bold;
+    transform: translateY(-300px);transition: all 1s ease 1.5s;}
+#content1 > section > p{opacity: 0; position: absolute; left: 1326px; top: 232px; color: #fa990e; font-size: 36px; font-weight: bold;
+    transform: translateY(-280px);transition: all 1.5s ease 1.5s;}
+#content1 > section > span:nth-of-type(1){opacity: 0; position: absolute; left: 19.1px; top: 14.4px;
+    transition: all 0.5s linear 1.0s;}
+#content1 > section > span:nth-of-type(2){opacity: 0; position: absolute; left: 49.6px; top: 840.8px;
+    transition: all 0.5s linear 1.0s;}
+#content1 > section > span:nth-of-type(3){opacity: 0; position: absolute; left: 974.4px; top: 710.3px;
+    transition: all 0.5s linear 1.0s;}
+#content1 > section > span:nth-of-type(4){opacity: 0; position: absolute; left: 898px; top: 158px;
+    transition: all 0.5s linear 1.0s;}
+#content1 > section > span:nth-of-type(5){opacity: 0; position: absolute; left: 1482.5px; top: 586.1px;
+    transition: all 0.5s linear 1.0s;}
+#content1 > section > span:nth-of-type(6){opacity: 0; position: absolute; left: 1642px; top: 84.43px;
+    transition: all 0.5s linear 1.0s;}
+#content1 > section > span:nth-of-type(7){opacity: 0; position: absolute; left: 1145px; top: 264px;
+    transform: translateY(-300px);transition: all 1s ease 1.0s;}
+#content1 > section > span:nth-of-type(8){opacity: 0; z-index: 1; position: absolute; left: 140px; top: 142px;
+    transform: translateX(-800px);transition: all 1s ease 1.0s;}
+#content1 > section > span:nth-of-type(9){opacity: 0; position: absolute; left: 342.6px; top: 120px;
+    transform:rotate(-15deg);transition: all 1.5s ease 1.5s;}
+#content1 > section > span:nth-of-type(10){opacity: 0; position: absolute; left: 970px; top: 782px;
+    transform: scale(0); transition: all 1s ease 1.5s;}
+#content1 > section > span:nth-of-type(11){opacity: 0; position: absolute; left: 1376px; top: 782px;
+    transform: scale(0); transition: all 1s ease 1.5s;}
+
+#content1 > section.on >h2{opacity: 1; transform: translateY(0)}
+#content1 > section.on >p{opacity: 1; transform: translateY(0)}
+#content1 > section.on > span:nth-of-type(1){opacity: 1;}
+#content1 > section.on > span:nth-of-type(2){opacity: 1;}
+#content1 > section.on > span:nth-of-type(3){opacity: 1;}
+#content1 > section.on > span:nth-of-type(4){opacity: 1;}
+#content1 > section.on > span:nth-of-type(5){opacity: 1;}
+#content1 > section.on > span:nth-of-type(6){opacity: 1;}
+#content1 > section.on > span:nth-of-type(7){opacity: 1; transform: translateY(0);}
+#content1 > section.on > span:nth-of-type(8){opacity: 1; transform: translateX(0);}
+#content1 > section.on > span:nth-of-type(9){opacity: 1; transform: rotate(0deg);}
+#content1 > section.on > span:nth-of-type(10){opacity: 1; transform: scale(1); }
+#content1 > section.on > span:nth-of-type(11){opacity: 1; transform: scale(1);}
+
+/* content2 */
+#content2 > section{position: relative; width: 1920px;height: 1080px; background: url(../images/section2/그룹798.png) no-repeat 0 0; background-size: cover;
+    overflow: hidden;}
+#content2 > section > h2{opacity: 0; position: absolute;left: 792px; top: 139px; font-size: 50px; font-weight: bold; color: #104b0b; text-align: center;
+    transform: translateY(-500px);transition: all 1.5s ease 1.0s;}
+#content2 > section > span:nth-of-type(1){opacity: 0; position: absolute; left: 516px; top: 338px;
+    transform: scale(0); transition: all 0.5s linear 1.0s;}
+#content2 > section > span:nth-of-type(2){opacity: 0; position: absolute; left: 821px; top: 338px;
+    transform: scale(0); transition: all 0.5s linear 1.0s;}
+#content2 > section > span:nth-of-type(3){opacity: 0; position: absolute; left: 1208px; top: 338px;
+    transform: scale(0); transition: all 0.5s linear 1.0s;}
+#content2 > section > p:nth-of-type(1){opacity: 0; position: absolute; left: 873px; top: 590px; font-size: 50px;font-weight: bold;color: #104b0b;
+    transform: translateY(1000px); transition: all 2s ease 1.0s;}
+#content2 > section > p:nth-of-type(2){opacity: 0; position: absolute; left: 828px; top: 677px; font-weight: bold;color: #fa990e; text-align: center;
+    transform: translateY(800px); transition: all 2.5s ease 1.5s;}
+#content2 > section > p:nth-of-type(3){opacity: 0; position: absolute; left: 581px; top: 750px; font-size: 25px; text-align: center;
+    transition: all 3s ease 3.0s;}
+
+#content2 > section.on >h2{opacity: 1; transform: translateY(0);}
+#content2 > section.on > span:nth-of-type(1){opacity: 1; transform: scale(1);}
+#content2 > section.on > span:nth-of-type(2){opacity: 1; transform: scale(1);}
+#content2 > section.on > span:nth-of-type(3){opacity: 1; transform: scale(1);}
+#content2 > section.on > p:nth-of-type(1){opacity: 1; transform: translateY(0);}
+#content2 > section.on > p:nth-of-type(2){opacity: 1; transform: translateY(0);}
+#content2 > section.on > p:nth-of-type(3){opacity: 1; transform: translateY(0);}
+
+/* content3 */
+#content3 > section{position: relative; width: 1920px;height: 1080px; background: url(../images/section3/빼기14.png) no-repeat 0 0; background-size: cover;
+    overflow: hidden;}
+#content3 > section > p:nth-of-type(1){opacity: 0; position: absolute; left: 434px; top: 155px; font-size: 35px; font-weight: bold;
+    transform: translateY(-500px);transition: all 0.5s linear 1.0s;}
+#content3 > section > p:nth-of-type(2){opacity: 0; position: absolute; left: 1325px; top: 155px; font-size: 35px; font-weight: bold;
+    transform: translateY(-500px);transition: all 0.5s linear 1.0s;}
+#content3 > section > p:nth-of-type(3){opacity: 0; position: absolute; left: 917.5px; top: 623.3px; font-size: 50px; font-weight: bold;
+    transform: translateY(800px); transition: all 0.5s linear 1.0s;}
+#content3 > section > span:nth-of-type(1){opacity: 0; position: absolute; left: 278px; top: 247px; font-size: 45px; font-weight: bold;
+    transform: translateX(-800px); transition: all 1.5s linear 1.0s;}
+#content3 > section > span:nth-of-type(2){opacity: 0; position: absolute; left: 282px; top: 334px; font-size: 45px;
+    transform: translateX(-800px); transition: all 1.5s linear 1.0s;}
+#content3 > section > span:nth-of-type(3){opacity: 0; position: absolute; left: 282px; top: 421px; font-size: 40px; font-family: 'Noto Sans KR', sans-serif; 
+    transform: translateX(-800px); transition: all 1.5s linear 1.0s;}
+#content3 > section > span:nth-of-type(4){opacity: 0; position: absolute; left: 1106px; top: 238px;
+    transform: translateY(-800px);transition: all 1.0s ease 1.0s;}
+#content3 > section > span:nth-of-type(5){opacity: 0; position: absolute; left: 1382px; top: 238px;
+    transform: translateY(-800px);transition: all 1.0s ease 1.0s;}
+#content3 > section > span:nth-of-type(6){opacity: 0; position: absolute; left: 1106px; top: 280px;
+    transform: translateX(800px); transition: all 1.5s linear 1.0s;}
+#content3 > section > span:nth-of-type(7){opacity: 0; position: absolute; left: 528px; top: 734.3px;
+    transform: translateY(800px);  transition: all 1.5s linear 1.0s;}
+
+#content3 > section.on > p:nth-of-type(1){opacity: 1; transform: translateY(0);}
+#content3 > section.on > p:nth-of-type(2){opacity: 1; transform: translateY(0);}
+#content3 > section.on > p:nth-of-type(3){opacity: 1; transform: translateY(0);}
+#content3 > section.on > span:nth-of-type(1){opacity: 1; transform: translateY(0);}
+#content3 > section.on > span:nth-of-type(2){opacity: 1; transform: translateY(0);}
+#content3 > section.on > span:nth-of-type(3){opacity: 1; transform: translateY(0);}
+#content3 > section.on > span:nth-of-type(4){opacity: 1; transform: translateY(0);}
+#content3 > section.on > span:nth-of-type(5){opacity: 1; transform: translateY(0);}
+#content3 > section.on > span:nth-of-type(6){opacity: 1;  transform: translateX(0);}
+#content3 > section.on > span:nth-of-type(7){opacity: 1; transform: translateY(0);}
+
+/* content4 */
+#content4 > section{position: relative; width: 1920px;height: 1080px; background: url(../images/section4/그룹801.png) no-repeat 0 0; background-size: cover;}
+#content4 > section > h2{opacity: 0; position: absolute;left: 1575px; top: 30px;font-size: 50px;font-weight: bold;text-align: right;
+    transform: translateX(500px); transition: all 1.5s linear 1.0s;}
+#content4 > section > span:nth-of-type(1){opacity: 0; position: absolute;left: 254.5px;top: 189px;
+    transition: all 1.5s linear 1.0s;}
+#content4 > section > span:nth-of-type(2){opacity: 0; position: absolute;left: 717px; top: 181.7px;
+    transition: all 1.5s linear 1.0s;}
+#content4 > section > span:nth-of-type(3){opacity: 0; position: absolute;left: 1183px; top: 181.7px;
+    transition: all 1.5s linear 1.0s;}
+#content4 > section > p:nth-of-type(1){opacity: 0; position: absolute;left: 893px;top: 109px;font-size: 30px;font-weight: bold;
+    transform: translateY(-300px); transition: all 2.5s ease 1.5s;}
+#content4 > section > p:nth-of-type(2){opacity: 0; position: absolute;left: 1352px; top: 109px;font-size: 30px;font-weight: bold;
+    transform: translateY(-300px); transition: all 2.5s ease 1.5s;}
+
+#content4 > section.on >h2{opacity: 1; transform: translateX(0);}
+#content4 > section.on > span:nth-of-type(1){opacity: 1;}
+#content4 > section.on > span:nth-of-type(2){opacity: 1;}
+#content4 > section.on > span:nth-of-type(3){opacity: 1;}
+#content4 > section.on > p:nth-of-type(1){opacity: 1; transform: translateY(0);}
+#content4 > section.on > p:nth-of-type(2){opacity: 1; transform: translateY(0);}
+
+/* content5 */
+#content5 > section{position: relative; width: 1920px;height: 1080px; background: url(../images/section5/그룹805.png) no-repeat 0 0; background-size: cover;
+    overflow: hidden;}
+#content5 > section > h2{opacity: 0; position: absolute;left: 1609px; top: 30px;font-size: 50px;font-weight: bold;text-align: right;
+    transform: translateX(500px); transition: all 0.5s linear 0.5s;}
+#content5 > section > span:nth-of-type(1){opacity: 0; position: absolute;left: 124px;top: 143.6px;
+    transform: translateX(-900px); transition: all 1.5s ease 1.5s;}
+#content5 > section > span:nth-of-type(2){opacity: 0; position: absolute;left: 541.3px; top: 143.6px;
+    transform: translateX(-600px); transition: all 1.5s ease 1.5s;}
+#content5 > section > span:nth-of-type(3){opacity: 0; position: absolute;left: 958.6px; top: 143.6px;
+    transform: translateX(-300px); transition: all 1.5s ease 1.5s;}
+#content5 > section > p{opacity: 0; position: absolute;left: 1376px; top: 421px;
+    transform: translateX(500px); transition: all 1.0s linear 1.0s;}
+
+#content5 > section.on > h2{opacity: 1; transform: translateX(0);}
+#content5 > section.on > span:nth-of-type(1){opacity: 1; transform: translateX(0);}
+#content5 > section.on > span:nth-of-type(2){opacity: 1; transform: translateX(0);}
+#content5 > section.on > span:nth-of-type(3){opacity: 1; transform: translateX(0);}
+#content5 > section.on > p{opacity: 1; transform: translatex(0);}
+
+/* content6 */
+#content6 > section{position: relative; width: 1920px;height: 1080px; background: url(../images/section6/그룹809.png) no-repeat 0 0; background-size: cover;
+    overflow: hidden;}
+#content6 > section > h2{opacity: 0; position: absolute;left: 140px; top: 120px;font-size: 50px;font-weight: bold;
+    transform: translateX(-300px); transition: all 0.5s linear 0.5s;}
+#content6 > section > span:nth-of-type(1){opacity: 0; position: absolute;left: 538px;top: 136.2px;
+    transform: translateX(1500px); transition: all 1.5s ease 1.0s;}
+#content6 > section > span:nth-of-type(2){opacity: 0; position: absolute;left: 950.7px; top: 137px;
+    transform: translateX(1000px); transition: all 1.5s ease 1.0s;}
+#content6 > section > span:nth-of-type(3){opacity: 0; position: absolute;left: 1365.3px; top: 137px;
+    transform: translateX(500px); transition: all 1.5s ease 1.0s;}
+#content6 > section > p{opacity: 0; position: absolute;left: 140px; top: 456px;
+    transform: translateX(-300px); transition: all 1.0s linear 1.0s;}
+
+#content6 > section.on > h2{opacity: 1; transform: translateX(0);}
+#content6 > section.on > span:nth-of-type(1){opacity: 1; transform: translateX(0);}
+#content6 > section.on > span:nth-of-type(2){opacity: 1; transform: translateX(0);}
+#content6 > section.on > span:nth-of-type(3){opacity: 1; transform: translateX(0);}
+#content6 > section.on > p{opacity: 1; transform: translatex(0);}
+
+/* content7 */
+#content7 > section{position: relative; width: 1920px;height: 1080px; background: url(../images/section7/그룹815.png) no-repeat 0 0; background-size: cover;
+    overflow: hidden;}
+#content7 > section > h2{opacity: 0; position: absolute;left: 140px; top: 120px;font-size: 50px;font-weight: bold;
+    transform: translateX(-300px); transition: all 0.5s linear 0.5s;}
+#content7 > section > span:nth-of-type(1){opacity: 0; position: absolute;left: 539.2px;top: 130.6px;
+    transform: scale(0); transition: all 1.0s ease 1.0s;}
+#content7 > section > span:nth-of-type(2){opacity: 0;position: absolute;left: 960px; top: 130.6px;
+    transform: scale(0); transition: all 1.0s ease 1.0s;}
+#content7 > section > p:nth-of-type(1){opacity: 0;position: absolute;left: 140px; top: 742px; font-size: 30px;
+    transform: translateX(-300px); transition: all 1.5s linear 1.5s;}
+#content7 > section > p:nth-of-type(2){opacity: 0;position: absolute;left: 1428px; top: 317px; font-size: 30px;
+    transform: translateX(500px); transition: all 1.5s linear 1.5s;}
+
+#content7 > section.on > h2{opacity: 1; transform: translateX(0);}
+#content7 > section.on > span:nth-of-type(1){opacity: 1; transform: scale(1);}
+#content7 > section.on > span:nth-of-type(2){opacity: 1; transform: scale(1);}
+#content7 > section.on > p:nth-of-type(1){opacity: 1; transform: translateY(0);}
+#content7 > section.on > p:nth-of-type(2){opacity: 1; transform: translateY(0);}
+
+/* contetn8 */
+#content8 > section{position: relative; width: 1920px;height: 1660px; overflow: hidden;}
+#content8 > section > span:nth-of-type(1){opacity: 0; position: absolute;left: 35.9px;top: -277.89px;
+    transform: translateY(-500px); transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(2){opacity: 0;position: absolute;left: 520px; top: -703px;
+    transform: translateY(-300px);transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(3){opacity: 0;position: absolute;left: 1004.05px; top: -277.89px;
+    transform: translateX(500px);transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(4){opacity: 0;position: absolute;left: -388.77px; top: 630.9px;
+    transform: translateX(-300px);transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(5){opacity: 0;position: absolute;left: 520px; top: 206.2px;
+    transform: translateY(-800px);transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(6){opacity: 0;position: absolute;left: 1004.1px; top: 206.2px;
+    transform: translateX(800px);transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(7){opacity: 0;position: absolute;left: 94.2px; top: 1102.4px;
+    transform: translateX(-800px);transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(8){opacity: 0;position: absolute;left: 1004.1px; top: 690.3px;
+    transform: translateY(800px);transition: all 1.0s ease 1.0s;}
+#content8 > section > span:nth-of-type(9){opacity: 0;position: absolute;right: -490px; top: 690.3px;
+    transform: translateX(300px);transition: all 1.0s ease 1.0s;}
+
+#content8 > section.on > span:nth-of-type(1){opacity: 1;transform: translateY(0);}
+#content8 > section.on > span:nth-of-type(2){opacity: 1;transform: translateY(0);}
+#content8 > section.on > span:nth-of-type(3){opacity: 1;transform: translateX(0);}
+#content8 > section.on > span:nth-of-type(4){opacity: 1;transform: translateX(0);}
+#content8 > section.on > span:nth-of-type(5){opacity: 1;transform: translateY(0);}
+#content8 > section.on > span:nth-of-type(6){opacity: 1;transform: translateX(0);}
+#content8 > section.on > span:nth-of-type(7){opacity: 1;transform: translateX(0);}
+#content8 > section.on > span:nth-of-type(8){opacity: 1;transform: translateY(0);}
+#content8 > section.on > span:nth-of-type(9){opacity: 1;transform: translateX(0);}
+
+/* footer */
+footer{position: relative; width: 1920px;height: 500px;background: #fa990e;}
+footer > p:nth-of-type(1){position: absolute;left: 679px; top: 193px;font-size: 50px;font-weight: bold;color: #fff;}
+footer > p:nth-of-type(2){position: absolute;left: 664px; top: 265px;color: #fff;}
