@@ -20,7 +20,7 @@ $(window).scroll(function(){
     }
 
     //content2
-    if(scroll >= 1*ht && scroll < 2*ht ){
+    if(scroll >= 0.5*ht && scroll < 2*ht ){
         //내용물 움직임 시작
         $("#content2 > section").addClass("on");
     }else{
@@ -29,7 +29,7 @@ $(window).scroll(function(){
     }
 
     //content3
-    if(scroll >= 2*ht && scroll < 3*ht ){
+    if(scroll >= 1.5*ht && scroll < 3*ht ){
         //내용물 움직임 시작
         $("#content3 > section").addClass("on");
     }else{
@@ -38,7 +38,7 @@ $(window).scroll(function(){
     }
 
     //content4
-    if(scroll >= 3*ht && scroll < 4*ht ){
+    if(scroll >= 2.5*ht && scroll < 4*ht ){
         //내용물 움직임 시작
         $("#content4 > section").addClass("on");
     }else{
@@ -47,7 +47,7 @@ $(window).scroll(function(){
     }
 
     //content5
-    if(scroll >= 4*ht && scroll < 5*ht ){
+    if(scroll >= 3.5*ht && scroll < 5*ht ){
         //내용물 움직임 시작
         $("#content5 > section").addClass("on");
     }else{
@@ -56,7 +56,7 @@ $(window).scroll(function(){
     }
 
     //content6
-    if(scroll >= 5*ht && scroll < 6*ht ){
+    if(scroll >= 4.5*ht && scroll < 6*ht ){
         //내용물 움직임 시작
         $("#content6 > section").addClass("on");
     }else{
@@ -65,7 +65,7 @@ $(window).scroll(function(){
     }
 
     //content7
-    if(scroll >= 6*ht && scroll < 7*ht ){
+    if(scroll >= 5.5*ht && scroll < 7*ht ){
         //내용물 움직임 시작
         $("#content7 > section").addClass("on");
     }else{
@@ -74,7 +74,7 @@ $(window).scroll(function(){
     }
 
     //content8
-    if(scroll >= 7*ht && scroll < 9*ht ){
+    if(scroll >= 6.5*ht && scroll < 9*ht ){
         //내용물 움직임 시작
         $("#content8 > section").addClass("on");
     }else{
